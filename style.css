@@ -46,23 +46,33 @@ q:before, q:after {
 }
 
 /******Main CSS *******************/
+/*********heatmap coloring**********/
 
 #logo, .big-ad, .little-ad, #ebooks, #search-button {
 	background-color: gray;
 }
 
-#article-title, #image {
+#image {
 	background-color: #b2b2b2;
 }
 
-#article, .topic {
+#article-title {
+	font-family: 'Oswald', sans-serif;
+}
+
+.topic {
 	background-color: #d8d8d8;
+}
+
+#article {
+	font-family: 'Raleway', sans-serif;
 }
 
 #article-sub-title, #links, #search-box, #aside-header, #social-media-links, .header-div {
 	background-color: #e8e8e8;
 }
 
+/****************/
 
 header {
 	height: 75px;
