@@ -1,0 +1,177 @@
+
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/******Main CSS *******************/
+
+#logo, .big-ad, .little-ad, #ebooks, #search-button {
+	background-color: gray;
+}
+
+#article-title, #image {
+	background-color: #b2b2b2;
+}
+
+#article, .topic {
+	background-color: #d8d8d8;
+}
+
+#article-sub-title, #links, #search-box, #aside-header, #social-media-links, .header-div {
+	background-color: #e8e8e8;
+}
+
+
+header {
+	height: 75px;
+	width: 600px;
+	max-width: 960px;
+	position: fixed;
+	vertical-align: middle;
+	text-align: center;
+	overflow: hidden;
+	z-index: 999;
+	top: 0;
+	margin: 10px;
+}
+
+div {
+
+	float: left;
+	padding: 10px;
+	text-align: center;
+	margin: 10px;
+
+}
+
+#logo {
+	width: 100px;
+	height: 35px;
+}
+
+.header-div, {
+	width: 30px;
+	height: 55px;
+	position: relative;
+
+	
+}
+
+section, aside {
+	float: left;
+}
+
+/******section**************/
+section {
+	width: 600px;
+	margin: 10px;
+}
+
+.topic {
+	width: 40px;
+	height: 35px;
+	position: relative;
+	display: inline-block;
+}
+
+#topic-bar {
+	width: 590px;
+	height: 50px;
+	margin-top: 50px;
+
+}
+
+#article-title, #article-sub-title, #links, #article {
+	width: 590px;
+}
+
+#article {
+	height: 400px;
+}
+
+#image {
+	width: 400px;
+	height: 250px;
+	margin-left: 80px;
+
+}
+
+/*******aside**************/
+
+aside {
+	width: 400px;
+	height: 600px;
+	margin: 10px;
+}
+
+#aside-header {
+	width: 200px;
+	height: 20px;
+}
+
+#social-media-links {
+	width: 100px;
+	height: 20px;
+}
+
+#search-box {
+	width: 225px;
+	height: 20px;
+}
+
+#search-button {
+	width: 75px;
+	height: 20px;
+}
+
+.big-ad {
+	width: 350px;
+	height: 75px;
+}
+
+.little-ad {
+	width: 150px;
+	height: 75px;
+}
